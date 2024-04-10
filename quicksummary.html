@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S6 網站訪客路徑與行為追蹤</title>
+</head>
+<body>
+    <font face="Microsoft Yahei">
+    <h1><b>S6 網站訪客路徑與行為追蹤</h1>
+    
+    <h2><font color="#000080">一、資料背景</h2></font>
+    <h3><font color="#404040"><blockquote>資料日期：2024年 3月28日~3月29日，共計兩日
+        <br>資料來源：NeuA網站追蹤資料與交易資料</font></h3>
+    <h2><font color="#000080">二、訪客行為漏斗</h2></font>
+    <h3><font color="#404040"><blockquote> 1. 平均每日約有13萬名網站訪客(sessions)，其中有瀏覽過Casino頁面的訪客約為1.3萬(10.1%)，有進行遊戲下注的會員為4,999位(3.7%)
+        <br>2. 瀏覽過Sports頁面訪客約有1.6萬(12.4%)，其中有登入的會員為6,216位(4.6%)，最終有完成比賽下注的會員約為2,166位(1.6%)
+        <br>3. 瀏覽過Casino/Sports任一頁面的訪客約2.3萬名(17.2%)，重複率為30%；待確認其他訪客造訪網站的行為與目的。
+        <br>4. Sports瀏覽訪客有完成下注的會員轉換率為12%(<sup>step4</sup>/<sub>step2</sub> )；而Casino瀏覽訪客有完成下注的會員轉換率為36%</font></h3>
+    <iframe scrolling="no" style="border:none;" seamless="seamless" 
+    src="https://chenhsuping.github.io/P001-01/S6_UsersFunnelHistogram.html" 
+    height="631" width="1200">
+    </iframe>
+    <h2><font color="#000080">三、到達網頁與站內路徑</h2></font>
+    <h3><font color="#404040"><blockquote>1. 進一步觀察訪客的站內路徑，大部份訪客仍會習慣先登入會員後再進入錢包(存/提款)。
+        <br>2. 有一部分的訪客從登入頁回到首頁後就直接離開網站，不確定是否有遇到問題或是其他原因。
+        <br>3. Sports的訪客相較於Casino的訪客更容易在進入網站的前五步驟進入到目標的頁面。
+    </blockquote></h3>
+    <iframe scrolling="no" style="border:none;" seamless="seamless" 
+    src="https://chenhsuping.github.io/P001-01/S6_Landing&Path.html" 
+    height="631" width="1200">
+    </iframe>
+    <h2><font color="#000080">四、遊戲類型與按鈕點擊</h2></font>
+    <h3><font color="#404040"><blockquote>1. 由於想要瞭解首頁下方新增Casino Tab後的使用狀況，於是在Tab和Menu選單進行埋設追蹤，並觀察玩家會透過何種按鈕進入遊戲下注。
+        <br>2. Casino大部分玩家仍然是透過Menu選單進到Slot和LiveCasino進行下注；Sports玩家則主要是透過Tab按鈕進到比賽進行下注。
+    </blockquote></h3>
+    <br><img src="https://chenhsuping.github.io/P001-01/S6_landing.png" height="500">
+    <img src="https://chenhsuping.github.io/P001-01/S6_menu.png" height="500">
+    <iframe scrolling="no" style="border:none;" seamless="seamless" 
+    src="https://chenhsuping.github.io/P001-01/S6_ButtonClick&GameType.html" 
+    height="510" width="740">
+    </iframe>
+    <h2><font color="#000080">五、結論與建議</h2></font>
+    <h3><font color="#404040"><blockquote>1. 透過訪客行為漏斗發現網站總訪客和Casino/Sports瀏覽人數有相當大的落差，可進一步分析這些訪客的目的與行為，確認是否為無效流量或是存在未被滿足的服務需求。
+        <br>2. 根據站內路徑圖發現有部份的訪客從登入頁回到首頁後就直接離開網站，建議可在登入頁增加事件偵測(輸入/錯誤回報)，進一步找出訪客離開網站的原因。
+        <br>3. 有一部分的訪客在進入網站後的前五步驟仍停留在首頁，可進一步研究這些訪客在進入遊戲前的網頁歷程，討論是否存在著優化的機會。
+        <br>4. 根據下注玩家遊戲前的按鈕點擊，推測目標明確的Casino玩家，可能相對容易透過Menu選單快速進入遊戲頁，後續可以根據玩家標籤屬性(新舊會員、單一/多樣遊戲會員)做比對，確認玩家與點擊的差異性。
+    </blockquote></h3>
+</font>      
+</body>
+</html>
